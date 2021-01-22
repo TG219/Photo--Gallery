@@ -1,0 +1,22 @@
+img{
+    transition: transform .2s;
+    height: 300px;
+    width: 300px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#grid{
+    width: 100%;
+    height: 800px;
+    background: lightpink;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+body{
+    background-color: lightpink;
+}
